@@ -59,9 +59,6 @@ function game(round){
       player_score += 1;
     }
   }
-
-  console.log(player_score + "   " + computer_score);
-  
   return[player_score, computer_score];
 }
 
